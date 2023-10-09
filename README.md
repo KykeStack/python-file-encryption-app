@@ -18,7 +18,7 @@ Before using the encryption and decryption features, you need to create your pub
 
 ```bash
 python create_keys.py 🛡️
-
+```
 This will generate public_key.pem and private_key.pem files in the keys folder.
 
 ## Encrypting Files 🔐
@@ -27,7 +27,7 @@ You can encrypt files located in the files folder using the encrypt_save.py modu
 
 ```bash
   python encrypt_save.py <filename> 📁🔒
-
+```
 Replace <filename> to encrypt with the name of the file you want to encrypt. The encrypted file will be saved in the encryption/encrypted folder.
 
 ## Decrypting Files 🔓
@@ -36,7 +36,7 @@ To decrypt files that are located in the encryption/encrypted folder, use the de
 
 ```bash
   python decrypt_save.py <encrypted_filename> 🔓
-
+```
 Replace <encrypted_filename> with the name of the encrypted file you want to decrypt. The decrypted file will be saved in the encryption/decrypted folder.
 
 ## Note 📝
